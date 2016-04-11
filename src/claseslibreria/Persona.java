@@ -12,4 +12,18 @@ package claseslibreria;
  */
 public class Persona {
     
+    private String nombre, apellidos;
+    
+    public void nombre(){
+        System.out.println(nombre);
+    }
+    
+        public void apellidos(){
+        System.out.println(apellidos);
+    }
+    
+    public void nombreCompleto(){
+        System.out.println(nombre + " " + apellidos);
+    }
+    
 }
