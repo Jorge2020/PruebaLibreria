@@ -18,4 +18,12 @@ public class Persona {
         System.out.println(nombre);
     }
     
+    public void apellidos(){
+        System.out.println(apellidos);
+    }
+    
+    public void nombreCompleto(){
+        System.out.println(nombre + " " + apellidos);
+    }
+    
 }
