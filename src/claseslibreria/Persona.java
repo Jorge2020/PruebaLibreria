@@ -14,4 +14,8 @@ public class Persona {
     
     private String nombre, apellidos;
     
+    public void nombre(){
+        System.out.println(nombre);
+    }
+    
 }
